@@ -1,0 +1,1000 @@
+  997  sudo -u postgres psql
+  998  sudo useradd --help
+  999  sudo useradd -b /opt/sonarqube -s /bin/bash sonarqube
+ 1000  nano /etc/sysctl.conf
+ 1001  sudo nano /etc/sysctl.conf
+ 1002  sysctl --system
+ 1003  sudo sysctl --system
+ 1004  sudo sysctl --system grep "vm."
+ 1005  sudo sysctl --system
+ 1006  sudo nano /etc/sysctl.conf
+ 1007  sudo sysctl --system
+ 1008  ulimit -n 131072
+ 1009  ulimit -u 8192
+ 1010  sudo nano /etc/security/limits.d/99-sonarqube.conf
+ 1011  sudo apt install unzip software-properties-common wget
+ 1012  wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.6.1.5931.zip
+ 1013  wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.6.1.59531.zip
+ 1014  unzip sonarqube-9.6.1.59531.zip
+ 1015  mv sonarqube-9.6.1.59531 /opt/sonarqube
+ 1016  sudo mv sonarqube-9.6.1.59531 /opt/sonarqube
+ 1017  sudo chown -R sonarqube:sonarqube /opt/sonarqube
+ 1018  nano /opt/sonarqube/conf/sonar.properties
+ 1019  sudo nano /opt/sonarqube/conf/sonar.properties
+ 1020  sudo nano ~/opt/sonarqube/conf/sonar.properties
+ 1021  cd /opt
+ 1022  ls
+ 1023  cd sonarqube
+ 1024  ls
+ 1025  sudo useradd -b /opt/sonarqube -s /bin/bash sonarqube
+ 1026  ls -a
+ 1027  ls -al
+ 1028  cd
+ 1029  dpkg -l | grep -i sonarqube
+ 1030  sudo apt-get purge -y sonarqube
+ 1031  sudo apt remove sonarqube
+ 1032  sudo apt update
+ 1033  sudo apt remove sonarqube
+ 1034  sudo apt-get remove sonarqube
+ 1035  sudo sonar.sh stop
+ 1036  ls
+ 1037  cd /opt
+ 1038  ls
+ 1039  sudo rmi -f sonarqube
+ 1040  sudo rm -f sonarqube
+ 1041  sudo rm sonarqube
+ 1042  sudo rm  -d sonarqube
+ 1043  sudo rm -d sonarqube
+ 1044  ls
+ 1045  cd sonarqube
+ 1046  ls
+ 1047  sudo rm -r -v 
+ 1048  cd ..
+ 1049  sudo rm -r -v sonarqube
+ 1050  ls
+ 1051  sudo useradd -b /opt/sonarqube -s /bin/bash sonarqube
+ 1052  sudo nano /etc/sysctl.conf
+ 1053  sudo nano /etc/security/limits.d/99-sonarqube.conf
+ 1054  cd
+ 1055  ls
+ 1056  unzip sonarqube-9.6.1.59531.zip
+ 1057  mv sonarqube-9.6.1.59531 /opt/sonarqube
+ 1058  sudo mv sonarqube-9.6.1.59531 /opt/sonarqube
+ 1059  cd opt
+ 1060  cd opt/
+ 1061  cd /opt/
+ 1062  ls
+ 1063  cd sonarqube
+ 1064  ls
+ 1065  sudo chown -R sonarqube:sonarqube /opt/sonarqube
+ 1066  sudo nano /opt/sonarqube/conf/sonar.properties
+ 1067  sudo sudo nano /etc/systemd/system/sonarqube.service
+ 1068  sudo systemctl daemon-reload
+ 1069  sudo systemctl start sonarqube.service
+ 1070  sudo systemctl enable sonarqube.service
+ 1071  sudo nano /opt/sonarqube/conf/sonar.properties
+ 1072  cd /opt/sonarqube
+ 1073  ls
+ 1074  code .
+ 1075  cd
+ 1076  $ wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.7.0.2747-linux.zip
+ 1077  sudo unzip sonar-scanner-cli-4.7.0.2747-linux.zip
+ 1078  sonar-scanner   -Dsonar.projectKey=fristproject   -Dsonar.sources=.   -Dsonar.host.url=http://127.0.0.1:9000   -Dsonar.login=sqp_73a4869fcbaf690da79cc70192eacb18d9060e3c
+ 1079  sudo sonar-scanner   -Dsonar.projectKey=fristproject   -Dsonar.sources=.   -Dsonar.host.url=http://127.0.0.1:9000   -Dsonar.login=sqp_73a4869fcbaf690da79cc70192eacb18d9060e3c
+ 1080  ln -s /opt/sonar-scanner/bin/sonar-scanner /usr/local/bin/sonar-scanner
+ 1081  sudo ln -s /opt/sonar-scanner/bin/sonar-scanner /usr/local/bin/sonar-scanner
+ 1082  echo 'export PATH="/opt/sonar-scanner/bin:$PATH"' >> ~/.bashrc source ~/.bashrc
+ 1083  sudo sonar-scanner   -Dsonar.projectKey=fristproject   -Dsonar.sources=.   -Dsonar.host.url=http://127.0.0.1:9000   -Dsonar.login=sqp_73a4869fcbaf690da79cc70192eacb18d9060e3c
+ 1084  sonar-scanner   -Dsonar.projectKey=fristproject   -Dsonar.sources=.   -Dsonar.host.url=http://127.0.0.1:9000   -Dsonar.login=sqp_ac840e927dcbac88b610f3024e8810c00b4a924a
+ 1085  wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.8.0.2856-linux.zip
+ 1086  unzip sonar-scanner-cli-4.8.0.2856-linux.zip
+ 1087  sudo mv sonar-scanner-cli-4.8.0.2856-linux.zip /opt/sonar-scanner
+ 1088  cd /opt
+ 1089  ls
+ 1090  sudo rm sonar-scanner
+ 1091  ls
+ 1092  sudo mv sonar-scanner-4.7.0.2747-linux /opt/sonarscanner
+ 1093  cd
+ 1094  ls
+ 1095  sudo mv sonar-scanner-4.7.0.2747-linux /opt/sonarscanner
+ 1096  cd /opt
+ 1097  ls
+ 1098  cd /opt/sonarscanner
+ 1099  sudo nano conf/sonar-scanner.properties
+ 1100  sudo chmod +x bin/sonar-scanner
+ 1101  sudo ln -s /opt/sonarscanner/bin/sonar-scanner /usr/local/bin/sonar-scanner
+ 1102  sudo unlink /usr/local/bin/sonar-scanner
+ 1103  sudo ln -s /opt/sonarscanner/bin/sonar-scanner /usr/local/bin/sonar-scanner
+ 1104  mkdir ~/sonar-example-test && cd ~/sonar-example-test
+ 1105  wget https://github.com/SonarSource/sonar-scanning-examples/archive/master.zip
+ 1106  ls
+ 1107  cd sonar-scanning-examples-master/sonarqube-scanner
+ 1108  cd
+ 1109  cd sonar-scanning-examples-master/sonarqube-scanner
+ 1110  ls
+ 1111  cd sonar-example-test
+ 1112  ls
+ 1113  cd sonar-scanning-examples-master
+ 1114  ls
+ 1115  cd sonarqube-scanner
+ 1116  ls
+ 1117  cd sonar-scanner
+ 1118  ls
+ 1119  sonar-scanner -D sonar.login=sqp_ac840e927dcbac88b610f3024e8810c00b4a924a
+ 1120  git pull --rebase origin main
+ 1121  yarn dev
+ 1122  git pull --rebase origin main
+ 1123  yarn dev
+ 1124  ifconfig
+ 1125  ufw --help
+ 1126  ufw status
+ 1127  sudo ufw status
+ 1128  sudo ufw allow 9000
+ 1129  sudo ufw status
+ 1130  sudo ufw status
+ 1131  sudo ufw --help
+ 1132  sudo netstat -tuln
+ 1133  sudo ufw --help
+ 1134  sudo ufw status numbered
+ 1135  sudo ufw delete 2
+ 1136  sudo ufw allow 9000/tcp
+ 1137  sudo ufw status
+ 1138  sudo nano /opt/sonarqube/conf/sonar.properties
+ 1139  sudo systemctl reload sonar
+ 1140  sudo systemctl reload sonarqube
+ 1141  sudo systemctl status sonarqube
+ 1142  sudo systemctl restart sonarqube
+ 1143  sudo systemctl status sonarqube
+ 1144  sudo  snap install ngrok
+ 1145  sudo ngrok config add-authtoken 2c63cK6JGsH5SUtD8bnMg3GJzG6_6CjXdWw9qghBPLC2LMGXD
+ 1146  ngrok http 80
+ 1147  ngrok http 80
+ 1148  ngrok config add-authtoken 2c64steSbdc9YRRFkzD8yCSsOB0_5ptbtjyGTUXgpRgV3MUqi
+ 1149  ngrok http 80
+ 1150  ngrok http 9000
+ 1151  echo $SHELL
+ 1152  nano myscript.sh
+ 1153  ls
+ 1154  sudo chmod +X myscript.sh
+ 1155  ls
+ 1156  ls -l
+ 1157  ./myscript.sh
+ 1158  sudo chmod +X myscript.sh
+ 1159  ls -l
+ 1160  sudo chmod +x myscript.sh
+ 1161  ls -l
+ 1162  ./myscript.sh
+ 1163  nano myscript.sh
+ 1164  ./myscript.sh
+ 1165  nano myscript.sh
+ 1166  ./myscript.sh
+ 1167  expr 30 + 30
+ 1168  touch myscript.sh
+ 1169  nano myscript.sh
+ 1170  sudo chmod +x myscript.sh
+ 1171  ./myscript.sh
+ 1172  nano myscript.sh
+ 1173  ./myscript.sh
+ 1174  nano myscript.sh
+ 1175  ./myscript.sh
+ 1176  nano myscript.sh
+ 1177  ./myscript.sh
+ 1178  nano myscript.sh
+ 1179  touch softwareChec.sh
+ 1180  nano softwareChec.sh
+ 1181  ./softwareChec.sh
+ 1182  sudo chmod +x softwarechec.sh
+ 1183  sudo chmod +x softwareChec.sh
+ 1184  ./softwareChec.sh
+ 1185  nano softwareChec.sh
+ 1186  ./softwareChec.sh
+ 1187  command -v htop
+ 1188  nano softwareChec.sh
+ 1189  touch filecheck.sh
+ 1190  nano filecheck.sh
+ 1191  ./filecheck.sh
+ 1192  sudo chmod +x filecheck.sh
+ 1193  ./filecheck.sh
+ 1194  nano filecheck.sh
+ 1195  which htop
+ 1196  nano softwareCheck1.sh
+ 1197  ./softwareCheck1.sh
+ 1198  man
+ 1199  man test
+ 1200  echo $?
+ 1201  ls
+ 1202  echo $?
+ 1203  touch exitvodes.sh
+ 1204  nano exitcodes.sh
+ 1205  sudo chmod +x exitcodes.sh
+ 1206  ./exitcodes.sh
+ 1207  nano exitcodes.sh
+ 1208  ./exitcodes.sh
+ 1209  nano exitcodes.sh
+ 1210  fg
+ 1211  touch whilelopp.sh
+ 1212  nano whilelopp.sh
+ 1213  sudo chmod +x whilelopp.sh
+ 1214  ./whilelopp.sh
+ 1215  nano whilelopp.sh
+ 1216  ./whilelopp.sh
+ 1217  nano whilelopp.sh
+ 1218  ./whilelopp.sh
+ 1219  nano whilelopp.sh
+ 1220  ./whilelopp.sh
+ 1221  git pull --rebase origin main
+ 1222  git fetch
+ 1223  git checkout SCMOverview
+ 1224  yarn dev
+ 1225  git pull --rebase origin main
+ 1226  yarn dev
+ 1227  pmd
+ 1228  yarn dev
+ 1229  sudo pip install pre-commit
+ 1230  pre-commit
+ 1231  pre-commit --version
+ 1232  pre-commit install
+ 1233  yarn preCommit
+ 1234  yarn format
+ 1235  yarn preCommit
+ 1236  git pull --rebase origin main
+ 1237  git fetch
+ 1238  git checkout SupQou
+ 1239  yarn dev
+ 1240  git pull --rebase origin main
+ 1241  git fetch 
+ 1242  git checkout 72-do-not-call-add-supplier-quote-for-just-1-item-add
+ 1243  yarn dev
+ 1244  yarn
+ 1245  yarn dev
+ 1246  sudo apt-get update
+ 1247  git pull --rebase origin main
+ 1248  git fetch origin
+ 1249  git checkout 72-do-not-call-add-supplier-quote-for-just-1-item-add -> origin/72-do-not-call-add-supplier-quote-for-just-1-item-add
+ 1250  git checkout 72-do-not-call-add-supplier-quote-for-just-1-item-add
+ 1251  git pull
+ 1252  yarn dev
+ 1253  sudo aptyt update
+ 1254  sudo apt update
+ 1255  kubectl get pods
+ 1256  kubectl config get-contexts
+ 1257  kubectl get nodes
+ 1258  kubectl get pods
+ 1259  cat ~/.kube/config
+ 1260  kubectl get namespaces
+ 1261  minikube start
+ 1262  kubectl get namespaces
+ 1263  kubectl get description
+ 1264  kubectl get descriptions
+ 1265  kubectl describe
+ 1266  nano nginx.yaml
+ 1267  code nginx.yaml
+ 1268  kubectl create pod --help
+ 1269  code .
+ 1270  minikube start
+ 1271  kubectl create pod -f nginx.yaml
+ 1272  kubectl create -f nginx.yaml
+ 1273  kubectl get pods
+ 1274  kubectl get pod nginx
+ 1275  kubectl describe pod nginx
+ 1276  kubectl get pod nginx
+ 1277  kubectl get pod nginx -o  yaml
+ 1278  kubectl delete pod -f nginx.yaml
+ 1279  kubectl delete -f nginx.yaml
+ 1280  kubectl get pods
+ 1281  kubectl delete -f nginx-deployment-55d86459bc-2g8zp
+ 1282  kubectl delete nginx-deployment-55d86459bc-2g8zp
+ 1283  minikube stop
+ 1284  minikube start
+ 1285  kubectl delete pods --all -A
+ 1286  kubectl get pods -n kube-system
+ 1287  kubectl apply -f pod.yaml
+ 1288  kubectl get pods
+ 1289  kubectl describe pod nginx
+ 1290  kubectl delete -f deployment.yaml
+ 1291  minukube start
+ 1292  minikube start
+ 1293  kubectl get pods
+ 1294  kubectl stop pod nginx-deployment-55d86459bc-jx5xv
+ 1295  kubectl delete pod nginx-deployment-55d86459bc-jx5xv
+ 1296  kubectl get pods
+ 1297  kubectl delete -f nginx.yaml
+ 1298  kubectl get pods
+ 1299  kubectl apply -f deployment.yaml
+ 1300  kubectl get pods
+ 1301  kubectl get replisets
+ 1302  kubectl get replicasets
+ 1303  kubectl get pods
+ 1304  kubectl get replicasets
+ 1305  kubectl describe replicaset nginx-deployment-5df9dd88f
+ 1306  kubectl get pods
+ 1307  kubectl describe pod nginx-deployment-5df9dd88f-sw4nr
+ 1308  kubectl get nodes
+ 1309  kubectl get pods
+ 1310  kubectl exec -it nginx-deployment-5df9dd88f-sw4nr bash
+ 1311  kubectl apply -f deployment.yaml
+ 1312  kubectl get pods
+ 1313  kubectl get nodes
+ 1314  kubectl get pods
+ 1315  kubectl exec -it nginx-deployment-c5474f9c5-4pvnq bash
+ 1316  minikube start
+ 1317  kubectl get pods
+ 1318  kubectl apply -f daemon.yaml
+ 1319  kubectl get pods
+ 1320  kubectl apply -f daemon.yaml
+ 1321  kubectl apply -f deployment.yaml
+ 1322  kubectl get pods
+ 1323  kubectl apply -f deployment.yaml
+ 1324  kubectl get pods
+ 1325  kubectl apply -f deployment.yaml
+ 1326  kubectl get pods
+ 1327  kubectl delete pod nginx-deployment-c5474f9c5-fvcn2
+ 1328  kubectl get pods
+ 1329  kubectl delete pod nginx-deployment-c5474f9c5-4pvnq
+ 1330  kubectl get pods
+ 1331  kubectl delete pod nginx-deployment-6k6k6
+ 1332  kubectl get pods
+ 1333  kubectl delete -f daemon.yaml
+ 1334  kubectl get pods
+ 1335  kubectl delete -f deployemt.yaml
+ 1336  kubectl delete -f deployment.yaml
+ 1337  kubectl get pods
+ 1338  kubectl delete pods --all -A
+ 1339  kubectl get pods
+ 1340  kubectl apply -f deployment.yaml
+ 1341  kubectl apply -f daemon.yaml
+ 1342  kubectl get pods
+ 1343  kubectl apply -f deployment.yaml
+ 1344  kubectl get pods
+ 1345  kubectl logs -f nginx-deployment-57fcf7d568-z96mb
+ 1346  minikube start
+ 1347  kubectl apply -f deployment.yaml
+ 1348  kubectl get pods
+ 1349  kubectl delete -f deployment.yaml
+ 1350  kubectl get pods
+ 1351  kubectl apply -f deployment.yaml
+ 1352  kubectl get pods
+ 1353  kubectl describe pod nginx-deployment-6b6884894-lj45n
+ 1354  kubectl apply -f deployment.yaml
+ 1355  kubectl get pods
+ 1356  kubectl exec -it nginx-deployment-d5d7fcb75-g9tth bash
+ 1357  kubectl get pods
+ 1358  kubectl describe pod nginx-deployment-d5d7fcb75-g9tth
+ 1359  kubectl get configmaps
+ 1360  kubectl get configmap kube-root-ca.crt
+ 1361  kubectl edit configmap kube-root-ca.crt
+ 1362  kubectl delete -f deployment.yaml
+ 1363  kubectl get pods
+ 1364  kubectl delete -f daemon.yaml
+ 1365  kubectl get pods
+ 1366  sudo apt update
+ 1367  sudo apt update "Snap Store"
+ 1368  sudo apt update --help
+ 1369  sudo apt update Snap Store
+ 1370  sudo apt update SnapStore
+ 1371  ps aux | grep snap
+ 1372  nano vim /home/.bashrc
+ 1373  git clone git@github.com:mohammadraasel/retro-inventory-web.git
+ 1374  cd retro-inventory-web
+ 1375  code .
+ 1376  kill 3352
+ 1377  sudo snap refresh snap-store
+ 1378  code .
+ 1379  node --vertion
+ 1380  node --version
+ 1381  npm rub dev
+ 1382  npm run dev
+ 1383  npm install
+ 1384  npm run dev
+ 1385  code .
+ 1386  git clone https://github.com/mohammadraasel/retro-inventory-backend.git
+ 1387  git clone git@github.com:mohammadraasel/retro-inventory-backend.git
+ 1388  npm install
+ 1389  code .
+ 1390  code .
+ 1391  cd
+ 1392  sudo apt update
+ 1393  sudo apt install postgresql
+ 1394  sudo -i -u postgres
+ 1395  sudo -u postgres psql
+ 1396  $ npm run migrate
+ 1397  npm run migrate
+ 1398  npm start
+ 1399  sudo -u postgres createuser --interactive
+ 1400  sudo -i -u postgres
+ 1401  sudo -u postgres psql
+ 1402  npm run dev
+ 1403  npm install -g @angular/cli
+ 1404  sudo npm install -g @angular/cli
+ 1405  sudo ng new tutorial
+ 1406  cd tutorial
+ 1407  ng serve --open
+ 1408  sudo ng serve --open
+ 1409  tar -zxvf helm-v3.0.0-linux-amd64.tar.gz
+ 1410  tar -zxvf helm-v3.14.3-linux-amd64.tar.gz
+ 1411  mv linux-amd64/helm /usr/local/bin/helm
+ 1412  sudo mv linux-amd64/helm /usr/local/bin/helm
+ 1413  helm --help
+ 1414  kubectl version
+ 1415  minikube start
+ 1416  kubectl version
+ 1417  heml create charts
+ 1418  helm create charts
+ 1419  npm start
+ 1420  npm install
+ 1421  code .
+ 1422  git fetch
+ 1423  git checkout ProductDetals
+ 1424  cd ..
+ 1425  npm install
+ 1426  npm install -g npm@10.5.2
+ 1427  sudo npm install -g npm@10.5.2
+ 1428  npm run dev
+ 1429  npm run db:push
+ 1430  git pull
+ 1431  npm run db:push
+ 1432  npm run migrate
+ 1433  npm start
+ 1434  npm install
+ 1435  npm start
+ 1436  npm run dev
+ 1437  cd ..
+ 1438  ls
+ 1439  cd retro-inventory-backend
+ 1440  npm start
+ 1441  npm run dev
+ 1442  git rm -r --cached .env
+ 1443  minikube
+ 1444  sudo apt-get remove --purge virtualbox 
+ 1445  sudo rm ~/"VirtualBox VMs" -Rf
+ 1446  sudo rm ~/.config/VirtualBox/ -Rf
+ 1447  sudo ps aux | grep -i "vbox"
+ 1448  git clone https://github.com/iam-veeramalla/Docker-Zero-to-Hero.git
+ 1449  sh <(curl -Ls https://kubeshark.co/install)
+ 1450  ks
+ 1451  docker
+ 1452  docker build -t sravon8900/python-demo-app:v1
+ 1453  docker build -t sravon8900/python-demo-app:v1 -f Dockerfile
+ 1454  docker build -t sravon8900/python-demo-app:v1 -f Dockerfile .
+ 1455  sudo docker build -t sravon8900/python-demo-app:v1 -f Dockerfile .
+ 1456  pip
+ 1457  sudo docker build -t sravon8900/python-demo-app:v1 -f Dockerfile .
+ 1458  docker build --no-cache .
+ 1459  sudo docker build --no-cache .
+ 1460  python
+ 1461  python3
+ 1462  sudo nano Dockerfile
+ 1463  sudo docker build -t sravon8900/python-demo-app:v1 -f Dockerfile .
+ 1464  pip
+ 1465  sudo docker build -t sravon8900/python-demo-app:v1 -f Dockerfile .
+ 1466  sudo apt update
+ 1467  apt list --upgradable
+ 1468  sudo apt install python3-pip
+ 1469  pip3 --version
+ 1470  cd /usr/bin/pip
+ 1471  cd /usr/bin/pip3
+ 1472  sudo ln -s /usr/bin/pip3 /usr/bin/pip
+ 1473  echo $PATH
+ 1474  py manage.py runserver
+ 1475  python manage.py runserver
+ 1476  python3 manage.py runserver
+ 1477  python -m pip install Django
+ 1478  python manage.py runserver
+ 1479  django-admin startproject my_tennis_club
+ 1480  python manage.py runserver
+ 1481  py manage.py runserver
+ 1482  python manage.py runserver
+ 1483  python3
+ 1484  python3 manage.py runserver
+ 1485  python manage.py runserver
+ 1486  python -m pip install Django
+ 1487  python manage.py runserver
+ 1488  python install Django
+ 1489  python3 install Django
+ 1490  python3
+ 1491  python -m pip install Django
+ 1492  python3 -m pip install Django
+ 1493  sudo docker build -t sravon8900/python-demo-app:v1 -f Dockerfile .
+ 1494  git clone https://github.com/anuragrana/docker-django-example
+ 1495  docker build -t image_name .
+ 1496  sudo docker build -t image_name .
+ 1497  code .
+ 1498  sudo docker ps
+ 1499  docker container run --rm -p 8800:8800 --name django-sample image_name
+ 1500  sudo docker container run --rm -p 8800:8800 --name django-sample image_name
+ 1501  sudo docker container run -v "$(pwd)":/usr/src/app  --rm -p 8800:8800 --name django-sample image_name
+ 1502  sudo docker ps
+ 1503  sudo docker ps -a
+ 1504  sudo docker prune
+ 1505  sudo docker container  prune
+ 1506  sudo docker ps -a
+ 1507  sudo docker build -t testPython .
+ 1508  sudo docker build -t testpython .
+ 1509  sudo docker ps -a
+ 1510  sudo docker images;
+ 1511  docker container run --rm -p 8800:8800 --name django-sample testpython
+ 1512  sudo docker container run --rm -p 8800:8800 --name django-sample testpython
+ 1513  sudo docker build -t testpython1 .
+ 1514  sudo docker images;
+ 1515  sudo docker container run --rm -p 8800:8800 --name django-sample testpython1
+ 1516  python manage.py runserver
+ 1517  python3 manage.py runserver
+ 1518  cd ..
+ 1519  python manage.py runserver
+ 1520  python3 manage.py runserver
+ 1521  sudo docker build -t testpython2 .
+ 1522  sudo docker container run --rm -p 8800:8800 --name django-sample testpython2
+ 1523  sudo docker images;
+ 1524  sudo docker container run --rm -p 8800:8800 --name django-s testpython2
+ 1525  sudo docker container run --rm -p 8000:8000 --name django-s testpython2
+ 1526  docker rmi -f $(docker images -aq)
+ 1527  sudo docker rmi -f $(docker images -aq)
+ 1528  sudo docker rmi -f $(sudo docker images -aq)
+ 1529  sudo docker images;
+ 1530  sudo docker ps
+ 1531  sudo docker container stop 087
+ 1532  sudo docker rmi -f $(sudo docker images -aq)
+ 1533  sudo docker ps
+ 1534  sudo docker build -t testpython2 .
+ 1535  sudo docker container run --rm -p 8000:8000 --name django-s testpython2
+ 1536  django-admin startproject djangidocker
+ 1537  ls
+ 1538  cd djangidocker
+ 1539  ls
+ 1540  python3 manage.py runserver
+ 1541  cd ..
+ 1542  code .
+ 1543  ls
+ 1544  cd djangidocker
+ 1545  ls
+ 1546  pip freeze -l > requirements.txt
+ 1547  ls
+ 1548  code .
+ 1549  sudo docker ps
+ 1550  sudo docker exec -it 302 "/bin/sh"
+ 1551  sudo docker compose up --build
+ 1552  docker container ls
+ 1553  sudo docker container ls
+ 1554  sudo docker container stop testpython2
+ 1555  sudo docker container stop 3ebc
+ 1556  sudo docker container rm 3ebc
+ 1557  sudo docker container prune
+ 1558  sudo docker images
+ 1559  sudo docker run -t django-docker
+ 1560  sudo docker run -t django-docker:0.0.1
+ 1561  sudo docker compose up --build
+ 1562  sudo docker rmi -f $(sudo docker images -aq)
+ 1563  sudo docker images
+ 1564  sudo docker ps -a
+ 1565  sudo docker container prune
+ 1566  sudo docker ps -a
+ 1567  sudo docker images
+ 1568  sudo docker compose up --build
+ 1569  sudo docker container prune
+ 1570  sudo docker rmi -f $(sudo docker images -aq)
+ 1571  sudo docker images
+ 1572  sudo docker ps -a
+ 1573  sudo docker compose up --build
+ 1574  sudo docker rmi -f $(sudo docker images -aq)
+ 1575  sudo docker ps -a
+ 1576  sudo docker container prune
+ 1577  sudo docker build -t testpy .
+ 1578  sudo docker container run --rm -p 8000:8000 --name django-s testpy
+ 1579  sudo docker container prune
+ 1580  sudo docker rmi -f $(sudo docker images -aq)
+ 1581  sudo docker build -t testpy .
+ 1582  sudo docker container run --rm -p 8000:8000 --name django-s testpy
+ 1583  sudo docker rmi -f $(sudo docker images -aq)
+ 1584  sudo docker container prune
+ 1585  sudo docker build -t testpy .
+ 1586  sudo docker container run --rm -p 8000:8000 --name django-s testpy
+ 1587  sudo docker container prune
+ 1588  sudo docker rmi -f $(sudo docker images -aq)
+ 1589  sudo docker container prune
+ 1590  sudo docker rmi -f $(sudo docker images -aq)
+ 1591  sudo docker ps -a
+ 1592  sudo docker images
+ 1593  sudo docker build -t shrabon8900/django-app:v1  .
+ 1594  sudo docker container run --rm -p 8000:8000 --name django-s shrabon8900/django-app:v1
+ 1595  sudo docker rmi -f $(sudo docker images -aq)
+ 1596  sudo docker ps -a
+ 1597  sudo docker build -t shrabon8900/django-app:v1  .
+ 1598  sudo docker container run --rm -p 8000:8000 --name django-s shrabon8900/django-app:v1
+ 1599  sudo docker rmi -f $(sudo docker images -aq)
+ 1600  sudo docker container prune
+ 1601  sudo docker build -t shrabon8900/django-app:v1  .
+ 1602  sudo docker container run --rm -p 8000:8000 --name django-s shrabon8900/django-app:v1
+ 1603  sudo docker container prune
+ 1604  sudo docker rmi -f $(sudo docker images -aq)
+ 1605  sudo docker build -t shrabon8900/django-app:v1  .
+ 1606  sudo docker container run --rm -p 8000:8000 --name django-s shrabon8900/django-app:v1
+ 1607  sudo docker push shrabon8900/django-app:v1
+ 1608  sudo docker images
+ 1609  docker build -t shrabon8900/django-app-demo:v1 .
+ 1610  sudo docker build -t shrabon8900/django-app-demo:v1 .
+ 1611  minikube start
+ 1612  kubectl apply -f deployment.yaml
+ 1613  kubectl get pods
+ 1614  kubectl get deploy
+ 1615  kubectl get pods
+ 1616  kubectl get pods -v=7
+ 1617  kubectl describe pod ss
+ 1618  kubectl get pods
+ 1619  kubectl describe pod sample-django-app-677bc6b5d-gj57s
+ 1620  docker login
+ 1621  docker images
+ 1622  sudo docker images
+ 1623  docker login
+ 1624  docker login  -u shrabon8900
+ 1625  sudo docker images
+ 1626  docker push shrabon8900/django-app-demo:v1
+ 1627  sudo docker push shrabon8900/django-app-demo:v1
+ 1628  sudo docker images
+ 1629  sudo docker tag shrabon8900/django-app-demo:v1 shrabon8900/django-app:v1
+ 1630  sudo docker images
+ 1631  sudo docker push shrabon8900/django-app:v1
+ 1632  sudo docker images
+ 1633  sudo docker push shrabon8900/django-app
+ 1634  sudo docker push shrabon8900/django-app:v1
+ 1635  docker login
+ 1636  sudo docker push shrabon8900/django-app:v1
+ 1637  docker login
+ 1638  sudo docker push shrabon8900/django-app:v1
+ 1639  sudo docker images
+ 1640  sudo docker pull
+ 1641  sudo docker pull docker pull shrabon8900/nodejs_app:latest
+ 1642  sudo docker pull shrabon8900/nodejs_app:latest
+ 1643  sudo docker push shrabon8900/django-app:v1
+ 1644  sudo docker images
+ 1645  sudo docker push shrabon8900/django-app:v1
+ 1646  sudo docker tag shrabon8900/django-app-demo:v1 shrabon8900/django_app:v1
+ 1647  sudo docker push shrabon8900/django-app:v1
+ 1648  sudo docker push shrabon8900/django_app:v1
+ 1649  sudo docker push django_app:v1
+ 1650  sudo docker images
+ 1651  sudo docker tag shrabon8900/nodejs_app:latest shrabon8900/django-app:v2
+ 1652  sudo docker images
+ 1653  sudo docker push shrabon8900/shrabon8900/_app:v2
+ 1654  sudo docker push shrabon8900/nodejs_app:v2
+ 1655  sudo docker tag shrabon8900/nodejs_app:latest shrabon8900/nodejs_app:v2
+ 1656  sudo docker push shrabon8900/nodejs_app:v2
+ 1657  sudo docker container run --rm -p 8000:8000 --name django-s shrabon8900/django_app
+ 1658  sudo docker container run --rm -p 8000:8000 --name django-s shrabon8900/django_app:v1
+ 1659  kubectl apply -f deployment.yaml
+ 1660  kubectl get deploy
+ 1661  kubectl get pods
+ 1662  kubectl get pods -o wide
+ 1663  minikube start
+ 1664  kubectl get pods -o wide
+ 1665  minikube ssh
+ 1666  kubectl apply -f service.yaml
+ 1667  kubectl delet -f service.yaml
+ 1668  kubectl delete -f service.yaml
+ 1669  kubectl apply -f service.yaml
+ 1670  kubectl get svc
+ 1671  kubectl apply -f service.yaml
+ 1672  kubectl get svc
+ 1673  minikube ssh
+ 1674  kubectl delete svc python-service 
+ 1675  kubectl get svc
+ 1676  minikube ssh
+ 1677  minikube ip
+ 1678  sudo docker push shrabon8900/django_app:v1
+ 1679  sudo docker images
+ 1680  sudo docker push shrabon8900/django-app:v1
+ 1681  code .
+ 1682  sudo docker build -t shrabon8900/golang-app:v1 .
+ 1683  sudo docker container run --rm -p 8000:8000 --name d-s shrabon8900/golang-app:v1
+ 1684  sudo docker ps
+ 1685  sudo docker ps -a
+ 1686  sudo docker ps -al
+ 1687  sudo docker rmi -f $(sudo docker images -aq)
+ 1688  sudo docker build -t shrabon8900/golang-app:v1 .
+ 1689  sudo docker container run --rm -p 8000:8000 --name d-s shrabon8900/golang-app:v1
+ 1690  docker login
+ 1691  sudo docker login
+ 1692  sudo docker push shrabon8900/golang-app:v1
+ 1693  sudo docker restart
+ 1694  sudo docker restart --help
+ 1695  sudo dokcer ps
+ 1696  sudo docker ps
+ 1697  sudo docker images;
+ 1698  sudo docker push shrabon8900/golang-app:v1
+ 1699  sudo docker push shrabon8900/golang-app:v1.0
+ 1700  sudo docker tag shrabon8900/golang-app:v1 shrabon8900/golang-app:v1.0
+ 1701  sudo docker push shrabon8900/golang-app:v1.0
+ 1702  docker push shrabon8900/golang-app:v1.0
+ 1703  sudo docker push shrabon8900/golang-app:v1.0
+ 1704  sudo docker tag shrabon8900/golang-app:v1 shrabon8900/golang-app:2.0
+ 1705  sudo docker push shrabon8900/golang-app:v1.0
+ 1706  doker login
+ 1707  docker login
+ 1708  sudo docker push shrabon8900/golang-app:v1.0
+ 1709  sudo docker push shrabon8900/golang-app:1.0
+ 1710  sudo docker push shrabon8900/golang-app:v1.0
+ 1711  sudo docker push shrabon8900/golang-app
+ 1712  sudo docker push shrabon8900/golang-app:v1.0
+ 1713  sudo docker push shrabon8900/django-app:v1
+ 1714  sudo docker push shrabon8900/django-app:v1.0
+ 1715  sudo dokcer images
+ 1716  sudo docker images
+ 1717  sudo docker push shrabon8900/golang-app:v1
+ 1718  docker login
+ 1719  sudo docker push shrabon8900/golang-app:v1
+ 1720  sudo systemctl restart docker
+ 1721  sudo dokcer images
+ 1722  sudo docker images
+ 1723  sudo docker push shrabon8900/golang-app:v1
+ 1724  sudo docker tag shrabon8900/golang-app:v1 abdur890000/golang-app:v1
+ 1725  sudo docker login
+ 1726  sudo docker push abdur890000/golang-app:v1
+ 1727  minikube start
+ 1728  kubectl apply -f deployment-golang.yaml
+ 1729  kubectl get pods
+ 1730  kubectl apply -f svc-golang.yaml
+ 1731  kubectk get svc
+ 1732  kubectl get svc
+ 1733  minikube ip
+ 1734  kubectl get pods
+ 1735  kubectl get deploy
+ 1736  minikube stop
+ 1737  sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
+ 1738  wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null
+ 1739  gpg --no-default-keyring --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg --fingerprint
+ 1740  echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] \
+ 1741  https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+ 1742  sudo apt update
+ 1743  sudo apt-get install terraform
+ 1744  terraform -help
+ 1745  terraform plan
+ 1746  cd muiple-file
+ 1747  terraform plan
+ 1748  cd variable
+ 1749  terraform plan
+ 1750  code .
+ 1751  cd ..
+ 1752  cd github
+ 1753  terraform plan
+ 1754  terraform providers
+ 1755  terraform init
+ 1756  terraform providers
+ 1757  terraform apply
+ 1758  validate
+ 1759  cd aws-first-instance
+ 1760  touch instance.tf
+ 1761  terraform plan
+ 1762  terraform init
+ 1763  terraform ls -a
+ 1764  ls -a
+ 1765  terraform plan
+ 1766  terraform apply --auto-approve
+ 1767  terraform plan
+ 1768  terraform apply --auto-approve
+ 1769  terraform destroy
+ 1770  ssh-keygen -h
+ 1771  ssh-keygen -t rsa
+ 1772  terraform plan
+ 1773  terraform apply
+ 1774  terraform destroy
+ 1775  ssh -i ubuntu@54.161.6.25
+ 1776  ssh -i id_rsa ubuntu@54.161.6.25
+ 1777  ssh -i id_rsa ubuntu@54.91.234.32
+ 1778  ssh -i id_rsa ubuntu@3.95.239.117
+ 1779  ssh -i id_rsa ubuntu@34.229.150.187
+ 1780  terraform apply --auto-approve
+ 1781  cd aws-first-instance
+ 1782  terraform apply --auto-approve
+ 1783  terraform destroy --auto-approve
+ 1784  terraform apply --auto-approve
+ 1785  terraform destroy --auto-approve
+ 1786  terraform apply --auto-approve
+ 1787  terraform destroy --auto-approve
+ 1788  cd ..
+ 1789  mkdir terraform-data-resource
+ 1790  cd terraform-data-resource
+ 1791  terraform plan
+ 1792  terraform init
+ 1793  terraform validate
+ 1794  terraform plan
+ 1795  code .\
+ 1796  code .
+ 1797  cd variable
+ 1798  terraform plan
+ 1799  terraform init
+ 1800  terraform plan
+ 1801  terraform apply -var "pvt_key=file("${path.module}/id_rsa")"
+ 1802  code . -r
+ 1803  git clone https://github.com/sravon/portfolio.git
+ 1804  php artisan serve
+ 1805  composer update
+ 1806  npm install
+ 1807  npm install -g npm@10.8.1
+ 1808  sudo npm install -g npm@10.8.1
+ 1809  sudo npm install
+ 1810  php artisan serve
+ 1811  php artisan key:generate
+ 1812  php artisan serve
+ 1813  php artisan migrate
+ 1814  code .
+ 1815  git clone https://github.com/sravon/broadband.git
+ 1816  mysql
+ 1817  mysql -u shrabon
+ 1818  mysql -u shrabon -p
+ 1819  composer update
+ 1820  php artisan migrate
+ 1821  php artisan key:generate
+ 1822  php artisan serve
+ 1823  mysql -u shrabon -p broadband < broadband.sql
+ 1824  mysql -u shrabon -p
+ 1825  mysql -u shrabon -p broadband < broadband.sql
+ 1826  mysql -u shrabon -p boradband < broadband.sql
+ 1827  mysql -u shrabon -p
+ 1828  code .
+ 1829  service --help
+ 1830  service status sonarQube
+ 1831  service status mysql
+ 1832  service mysql status
+ 1833  service sonarQube status
+ 1834  service sonarqube status
+ 1835  service sonarqube stop
+ 1836  sudo docker ps;
+ 1837  sudo docker build -t my-first-image .
+ 1838  sudo docker ps;
+ 1839  sudo docker ps -a
+ 1840  sudo docker build -t my-first-image .
+ 1841  sudo docker ps -a
+ 1842  sudo docker ps -al
+ 1843  sudo docker images;
+ 1844  sudo docker container stop 56e
+ 1845  sudo docker ps -a
+ 1846  sudo docker ps -al
+ 1847  sudo docker build -t my-first-image .
+ 1848  sudo docker ps -al
+ 1849  sudo docker images;
+ 1850  sudo docker run -p 8181:8181 my-first-image
+ 1851  sudo docker rmi -f d84
+ 1852  sudo docker build -t my-first-image .
+ 1853  sudo docker ps -al
+ 1854  sudo docker images;
+ 1855  sudo docker ps -al
+ 1856  sudo docker container stop 687
+ 1857  sudo docker container prune
+ 1858  sudo docker ps -al
+ 1859  sudo docker build -t my-first-image .
+ 1860  sudo docker images;
+ 1861  sudo docker run -p 8181:8181 my-first-image
+ 1862  sudo docker images;
+ 1863  sudo docker rmi -f 0add
+ 1864  sudo docker build -t my-first-image .
+ 1865  sudo docker run -p 9000:9000 my-first-image
+ 1866  sudo docker images;
+ 1867  sudo docker run -p 9000:9000 my-first-image
+ 1868  sudo docker ps -al
+ 1869  sudo docker prune
+ 1870  sudo docker container prune
+ 1871  sudo docker ps -al
+ 1872  sudo docker run -p 9000:9000 my-first-image
+ 1873  sudo docker ps -al
+ 1874  sudo docker container prune
+ 1875  sudo docker images;
+ 1876  sudo docker rmi -f 1052
+ 1877  sudo docker build -t my-first-image .
+ 1878  sudo docker images;
+ 1879  sudo docker run -p 8181:8181 my-first-image
+ 1880  [200~docker-compose up --build
+ 1881  docker-compose up --build
+ 1882  sudo docker-compose up --build
+ 1883  docker images;
+ 1884  sudo docker images;
+ 1885  sudo docker rmi -f laravel-app
+ 1886  sudo docker rmi -f nginx
+ 1887  sudo docker rmi 099
+ 1888  sudo docker rmi  -f 099
+ 1889  sudo docker prune
+ 1890  sudo docker container prune
+ 1891  sudo docker-compose up --build
+ 1892  sudo docker ps
+ 1893  aervice sonarqube stop
+ 1894  service sonarqube stop
+ 1895  npx create-next-app@latest
+ 1896  npm install -g npm@10.8.2
+ 1897  sudo npm install -g npm@10.8.2
+ 1898  ls
+ 1899  cd pristine
+ 1900  code .
+ 1901  yarn
+ 1902  yarn dev
+ 1903  code .
+ 1904  yarn dev
+ 1905  yarn build
+ 1906  git init
+ 1907  git add .
+ 1908  git commit -m "first commit"
+ 1909  git branch -M main
+ 1910  git remote add origin https://github.com/sravon/pristine.git
+ 1911  git push -u origin main
+ 1912  git remote add origin git@github.com:sravon/pristine.git
+ 1913  git config --list
+ 1914  git remote remove origin
+ 1915  git remote add origin git@github.com:sravon/pristine.git
+ 1916  git push -u origin main
+ 1917  yarn dev
+ 1918  yarn build
+ 1919  git add .
+ 1920  git commit "all pages added"
+ 1921  git commit -m "all pages added"
+ 1922  git push -u origin main
+ 1923  yarn dev
+ 1924  yarn  add .
+ 1925  git add .
+ 1926  git commit -m "fix doc file component"
+ 1927  git push
+ 1928  yarn dev
+ 1929  yarn add .
+ 1930  git add .
+ 1931  git commit -m "abdout tile fix doc file component"
+ 1932  git push
+ 1933  ls
+ 1934  sqlite
+ 1935  mysql
+ 1936  cat titanic.db
+ 1937  vim regex-match.py
+ 1938  sudo apt install vim
+ 1939  vim regex-match.py
+ 1940  python regex-match.py
+ 1941  python3 regex-match.py
+ 1942  python regex-match.py
+ 1943  vim regex-match.py
+ 1944  python3 regex-match.py
+ 1945  vim regex-match.py
+ 1946  python3 regex-match.py
+ 1947  vim module.py
+ 1948  vim regex-match.py
+ 1949  python3 regex-match.py
+ 1950  vim test.py
+ 1951  python3 test.py
+ 1952  vim test.py
+ 1953  python3 test.py
+ 1954  good night
+ 1955  /bin/python3 "/home/shrabon/Python beginner/file dictory finder/folder_check.py"
+ 1956  code .
+ 1957  python3 folder_check.py
+ 1958  pip
+ 1959  code .
+ 1960  git init
+ 1961  git add .
+ 1962  git commit -m "initial code"
+ 1963  git branch -M main
+ 1964  git remote add origin git@github.com:sravon/MicroburbsTest.git
+ 1965  git push -u origin main
+ 1966  git add .
+ 1967  git commit -m "rename file"
+ 1968  git push -u origin main
+ 1969  vim range.py
+ 1970  python3 range.py
+ 1971  vim range.py
+ 1972  code .
+ 1973  /bin/python3 /home/shrabon/unipass/Session_1/1.py
+ 1974  python3 1.py
+ 1975  python3 2.py
+ 1976  python3 3.py
+ 1977  python3 4.py
+ 1978  python3 6.py
+ 1979  python3 5.py
+ 1980  code .
+ 1981  python3 1.py
+ 1982  python3 2.py
+ 1983  python3 3.py
+ 1984  code .
+ 1985  history > hist.txt
+ 1986  python3 PracTest1.py
+ 1987  python3 PracTest1.py
+ 1988  python3 PracTest2.py
+ 1989  history > hist.txt
+ 1990  mkdir -p FOP/SamplePracTest1
+ 1991  mkdir -p Dir1/Subbir1 Dir2 Dir3
+ 1992  python3 practicetest1.py
+ 1993  python3 practest1.py
+ 1994  code .
+ 1995  python3 practest1.py
+ 1996  history > hist.txt
