@@ -1,35 +1,21 @@
-import math
 
-# def func(totalRows,cols, rowNum=0, colNum=0):
-#     for row in range(totalRows):
-#         if row%2 == 0:
-#             for col in range(cols):
-#                 end= "+" if col == (cols-1) else ""
-#                 print("+---", end=end)
-#             print("")
-#         else:
-#             for col in range(cols):
-#                 end= "|" if col == (cols-1) else ""
-#                 if (row == rowNum*2-1) and (col == colNum-1):
-#                     print("| X ", end=end)
-#                 else:
-#                     print("|   ", end=end)
-#             print("")
-
-rows = int(input("Enter number of rows in grid... "))
-while(rows <= 0 or rows > 21):
+rows = input("Enter number of rows in grid ")
+rows = int(rows)
+while(rows <= 0):
     print("Out of range, please re-enter... ")
-    rows = int(input("Enter number of rows in grid... "))
+    rows = input("Enter number of rows in grid... ")
+    rows = int(rows)
 
-cols = int(input("Enter number of cols in grid... "))
-while(cols <= 0 or rows > 21):
+cols = input("Enter number of cols in grid ")
+cols = int(cols)
+while(cols <= 0):
     print("Out of range, please re-enter... ")
-    cols = int(input("Enter number of cols in grid... "))
-totalRows = rows*2+1
+    cols = input("Enter number of cols in grid... ")
+    cols = int(cols)
 
-rowNum=0
-colNum=0
-for row in range(totalRows):
+totalNumberOfROws = rows*2+1
+
+for row in range(totalNumberOfROws):
     if row%2 == 0:
         for col in range(cols):
             end= "+" if col == (cols-1) else ""
@@ -38,24 +24,25 @@ for row in range(totalRows):
     else:
         for col in range(cols):
             end= "|" if col == (cols-1) else ""
-            if (row == rowNum*2-1) and (col == colNum-1):
-                print("| X ", end=end)
-            else:
-                print("|   ", end=end)
+            print("|   ", end=end)
         print("")
 
-# Part 2
-rowNum = int(input("Enter a row number... "))
-while(rowNum > rows):
-    print("Out of range, please re-enter... ")
-    rowNum = int(input("Enter a row number... "))
 
-colNum = int(input("Enter a col number ... "))
-while(colNum > cols):
+rowNumber = input("Enter a row number... ")
+rowNumber = int(rowNumber)
+while(rowNumber > rows):
     print("Out of range, please re-enter... ")
-    colNum = int(input("Enter a col number... "))
+    rowNumber = int(input("Enter a row number... "))
+    rowNumber = int(rowNumber)
 
-for row in range(totalRows):
+colNumber = input("Enter a col number ... ")
+colNumber = int(rowNumber)
+while(colNumber > cols):
+    print("Out of range, please re-enter... ")
+    colNumber = input("Enter a col number... ")
+    colNumber = int(colNumber)
+
+for row in range(totalNumberOfROws):
     if row%2 == 0:
         for col in range(cols):
             end= "+" if col == (cols-1) else ""
@@ -64,7 +51,7 @@ for row in range(totalRows):
     else:
         for col in range(cols):
             end= "|" if col == (cols-1) else ""
-            if (row == rowNum*2-1) and (col == colNum-1):
+            if (row == rowNumber*2-1) and (col == colNumber-1):
                 print("| X ", end=end)
             else:
                 print("|   ", end=end)
