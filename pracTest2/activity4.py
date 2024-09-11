@@ -35,8 +35,8 @@ for i in range(cols) :
     ypoints = np.arange(cols)
     plt.plot(xpoints,ypoints, color="black")
 
-colors = ['black', 'blue', 'green', 'cyan']  # Four colors
-sizes = [20, 50, 80, 100]  # Four different sizes
+colors = [ 'blue', 'green', 'cyan'] 
+sizes = [20, 50, 80, 100] 
 for i in range(rows-1):
     color = colors[i % len(colors)]
     size = sizes[i % len(sizes)] 

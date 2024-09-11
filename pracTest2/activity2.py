@@ -39,7 +39,7 @@ for i in range(cols) :
 # # Adding annotation
 for i in range(rows+1):
     for j in range(cols):
-        val = "("+ str(i)+","+str(j)+")"
+        val = "("+ str(j)+","+str(i)+")"
         plt.annotate(val, xy=(i,j), fontsize=10)
 plt.gca().invert_yaxis()
 plt.xlabel('X-axis')
