@@ -35,19 +35,18 @@ for i in range(cols) :
     ypoints = np.arange(cols)
     plt.plot(xpoints,ypoints, color="black")
 
-newRows = np.array([])
-
+colors = ['black', 'blue', 'green', 'cyan']  # Four colors
+sizes = [20, 50, 80, 100]  # Four different sizes
 for i in range(rows-1):
-    newRows=np.append(newRows,[float(i)*10+0.5])
-
-print(newRows)
-        
-plt.scatter(newRows,newRows, s=np.arange(1,rows))
+    color = colors[i % len(colors)]
+    size = sizes[i % len(sizes)] 
+    for j in range(cols-1):
+        plt.scatter(float(i)+ 0.5,float(j)+ 0.5, c=color, s=size)
 
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
-plt.title('Activity 3')
-
+plt.title('Activity 4')
+plt.grid(True)
 
 plt.show()
 
